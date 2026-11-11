@@ -17,7 +17,7 @@ export type Post = {
 
 export function getPostBySlug(slug: string): Post | null {
   // A slug is also a filename, so reject path separators and traversal.
-  if (!/^[a-z0-9-]+$/.test(slug)) {
+  if (!/^[a-z0-9_-]+$/.test(slug)) {
     return null;
   }
 

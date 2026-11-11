@@ -15,7 +15,7 @@ npm run dev
 
 ## 게시글 작성
 
-`content/posts/`에 소문자, 숫자, 하이픈으로 된 이름의 `.mdx` 파일을 추가합니다. 파일명이 URL의 slug가 됩니다. 예를 들어 `my-new-post.mdx`는 `/blog/my-new-post`가 됩니다.
+`content/posts/`에 소문자, 숫자, 하이픈, 밑줄로 된 이름의 `.mdx` 파일을 추가합니다. 파일명이 URL의 slug가 됩니다. 예를 들어 `my-new-post.mdx`는 `/blog/my-new-post`가 됩니다.
 
 ```mdx
 ---
