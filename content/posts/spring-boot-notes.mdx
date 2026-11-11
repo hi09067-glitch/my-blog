@@ -1,0 +1,30 @@
+---
+title: "Spring Boot 개발 중 자주 사용하는 기능"
+date: "2026-11-12"
+description: "Spring Boot 프로젝트에서 사용한 기술과 실무 팁"
+tags:
+  - Java
+  - Spring Boot
+published: true
+---
+
+# Spring Boot 개발 노트
+
+## 1. REST API 작성
+
+```java
+@RestController
+@RequestMapping("/api/posts")
+public class PostController {
+    @GetMapping
+    public String getPosts() {
+        return "Hello Spring Boot";
+    }
+}
+```
+
+## 2. 기억할 내용
+
+- Controller는 요청을 처리한다.
+- Service는 비즈니스 로직을 담당한다.
+- Repository 또는 Mapper는 데이터를 조회한다.
